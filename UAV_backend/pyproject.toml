@@ -1,0 +1,22 @@
+[project]
+name = "UAV_backend"
+version = "0.1.0"
+description = "UAV_backend"
+authors = [
+    {name = "salishaukat", email = "as_ns2002@hotmail.com"},
+]
+dependencies = [
+    "Flask",
+    "Flask-SQLAlchemy"
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
